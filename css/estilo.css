@@ -10,4 +10,19 @@ header{
     background-color: blue;
 }
 
-nav
+/* Classe atribuida para a div que vai receber o logotipo */
+nav{
+    background-color: burlywood;
+}
+
+main{
+    background-color:white
+}
+
+section{
+    background-color:cadetblue
+}
+
+footer{
+    background-color:blueviolet
+}
