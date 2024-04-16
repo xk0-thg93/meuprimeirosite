@@ -1,34 +1,34 @@
 body{
-    background-color:orange;
+    background-color:rgb(116, 116, 116)
 }
 
 .cabecalho{
-    background-color: aqua;
+    background-color: rgb(39, 213, 36);
     padding: 3%;
 }
 
 .logo{
-    background-color: blue;
+    background-color: rgb(29, 137, 29);
 }
 
 /* Classe atribuida para a div que vai receber o logotipo  */
 nav{
-    background-color: burlywood;
+    background-color: rgb(29, 137, 29);
 }
 
 main{
-    background-color:gold;
+    background-color:rgb(195, 195, 195);
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
 section{
-    background-color:cadetblue;
+    background-color:rgb(136, 90, 19);
 }
 
 .rodape{
-    background-color:blueviolet;
+    background-color:rgb(200, 200, 200);
     padding: 3%;
 }
 
@@ -48,10 +48,10 @@ h2{
 
 p{
     line-height: 1.5;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 ul li{
     line-height: 1.5;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
