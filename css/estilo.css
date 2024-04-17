@@ -10,6 +10,7 @@ body{
 
 .logo{
     background-color: rgb(29, 137, 29);
+    width: 10%;
 }
 
 /* Classe atribuida para a div que vai receber o logotipo  */
@@ -33,7 +34,7 @@ section{
     padding: 3%;
 }
 
-.titulos{
+.titulo{
     line-height: 3;
     text-align: center;
     font-weight: bold;
