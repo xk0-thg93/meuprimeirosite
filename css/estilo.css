@@ -1,19 +1,23 @@
 body{
-    background-color:rgb(116, 116, 116);
+    background-image:url()
 }
 
 .cabecalho{
-    background-color: rgb(39, 213, 36);
-    padding: 3%;
+    background-image:url(../img/Minecraft\ bloco\ de\ terra.jpg)
+    padding; 3%;
 }
 
 .logo{
-    background-color: rgb(29, 137, 29);
+    background-image:url(../img/minecraft\ bloco\ de\ grama.png)
+}
+
+.logotopo{
+    width: 20%;
 }
 
 /* Classe atribuida para a div que vai receber o logotipo  */
 nav{
-    background-color: rgb(29, 137, 29);
+    background-image:url(../img/Minecraft\ bloco\ de\ terra.jpg)
 }
 
 main{
@@ -32,7 +36,7 @@ section{
     padding: 3%;
 }
 
-.titulos{
+.titulo{
     line-height: 3;
     text-align: center;
     font-weight: bold;
