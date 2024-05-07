@@ -1,14 +1,14 @@
 body{
-    background-image:url()
+    background-image:url();
 }
 
 .cabecalho{
-    background-image:url(../img/Minecraft\ bloco\ de\ terra.jpg)
-    padding; 3%;
+    background-image:url(../img/Minecraft\ bloco\ de\ terra.jpg);
+    padding: 3%;
 }
 
 .logo{
-    background-image:url(../img/minecraft\ bloco\ de\ grama.png)
+    background-image:url(../img/minecraft\ bloco\ de\ grama.png);
 }
 
 .logotopo{
