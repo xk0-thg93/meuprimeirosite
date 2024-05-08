@@ -73,7 +73,7 @@ p,td{
 }
 table{
     border-collapse: collapse;
-    width: 80%
+    width: 80%;
     font-size: 1.2em;
     margin-left: auto;
     margin-right: auto;
@@ -85,4 +85,7 @@ td,th{
 }
 tr :nth-child(even) {
     background-color: #d3d3d3;
+}
+.inicialimg{
+    width: 80%;
 }
