@@ -1,3 +1,19 @@
+
+/*PALETA DE CORES:
+Azul escuro: 46, 58, 152
+
+Amarelo/laranja: 255, 193, 13
+
+Branco: 255, 255, 255
+
+Verde ray: 69, 133, 118
+
+azul kay: 50, 100, 180
+
+vermelho grou: 200, 60, 40
+
+*/
+
 body{
     background-image:url(../img/Mapa\ hoenn.png);
     background-size: 100%;
@@ -8,12 +24,12 @@ body{
 }
 
 .cabecalho{
-    background-color: rgb(255, 243, 150);
+    background-color: rgb(200, 60, 40);
     padding: 3%;
 }
 
 .logo{
-    background-color: rgb(230, 255, 0);
+    background-color: rgb(255, 193, 13);
 }
 
 .logotopo{
@@ -22,7 +38,7 @@ body{
 
 /* Classe atribuida para a div que vai receber o logotipo  */
 nav{
-    background-color: rgb(230, 255, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 main{
@@ -33,11 +49,24 @@ main{
 }
 
 section{
-    background-color:rgb(68, 99, 255);
+    background-color:rgba(53, 65, 155, 0.801);
 }
 
+.section1{
+    background-color:rgba(53, 65, 155, 0.801);
+}
+
+.section2{
+    background-color:rgba(53, 65, 155, 0.801);
+}
+
+.section3{
+    background-color:rgba(53, 65, 155, 0.801);
+}
+
+
 .rodape{
-    background-color:rgb(160, 255, 247);
+    background-color:rgb(46, 58, 152);
     padding: 3%;
 }
 
