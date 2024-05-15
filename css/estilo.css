@@ -1,5 +1,18 @@
-body{
-    background-image:url(../img/Mapa\ hoenn.png);
+/*PALETA DE CORES:
+Azul escuro: 46, 58, 152
+
+Amarelo/laranja: 255, 193, 13
+
+Branco: 255, 255, 255
+
+Verde ray: 69, 133, 118
+
+azul kay: 50, 100, 180
+
+vermelho grou: 200, 60, 40
+*/
+body {
+    background-image: url(../img/Mapa\ hoenn.png);
     background-size: 100%;
     background-position: center;
     background-repeat: repeat-y;
@@ -7,85 +20,144 @@ body{
     margin: 0;
 }
 
-.cabecalho{
-    background-color: rgb(255, 243, 150);
+.cabecalho {
+    background-color: rgb(200, 60, 40);
     padding: 3%;
 }
 
-.logo{
-    background-color: rgb(230, 255, 0);
+.logo {
+    background-color: rgb(255, 193, 13);
 }
 
-.logotopo{
+.logotopo {
     width: 20%;
 }
 
-/* Classe atribuida para a div que vai receber o logotipo  */
-nav{
-    background-color: rgb(230, 255, 0);
+/* Classe atribuída para a div que vai receber o logotipo */
+nav {
+    background-color: rgb(255, 255, 255);
 }
 
-main{
-    background-color:rgb(160, 255, 247);
+main {
+    background-color: rgb(255, 193, 13);
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
-section{
-    background-color:rgb(68, 99, 255);
+section {
+    background-color: rgb(53, 65, 155);
 }
 
-.rodape{
-    background-color:rgb(160, 255, 247);
+.section1 {
+    background-color: rgb(69, 133, 118);
+}
+
+.section2 {
+    background-color: rgb(50, 100, 180);
+}
+
+.section3 {
+    background-color: rgb(200, 60, 40);
+}
+
+.sectionimg{
+    background-image: url(../img/fundocolorido.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: repeat-y;
+    height: 100%;
+    margin: 0;
+}
+
+.rodape {
+    background-color: rgb(69, 133, 118);
     padding: 3%;
 }
 
-.titulo{
+.titulo {
     line-height: 3;
     text-align: center;
     font-weight: bold;
 }
 
-h1,h2,h3,p,li{
-    color: rgb(10, 10, 10);
+h1, h2, h3, p, li, table {
     font-family: "Pixelify Sans", sans-serif;
 }
 
-h1{
-    font-size:3em;
+h1 {
+    font-size: 3rem;
 }
 
-h2{
-    font-size:2em;
+h2 {
+    font-size: 2rem;
 }
 
-.link{
+.link {
     line-height: 1.5;
     font-size: 1.5em;
     color: rgb(10, 10, 10);
 }
-p,td{
+
+p, td {
+    line-height: 1.5rem;
     color: azure;
 }
-.texto{
-    color:rgb(15,15,15);
+
+.texto {
+    color: rgb(15, 15, 15);
 }
-table{
+
+table {
     border-collapse: collapse;
     width: 80%;
-    font-size: 1.2em;
+    font-size: 1.5rem;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2%;
+    border: 1px solid white; 
 }
-td,th{
-    border: 5px dashed rgb(255, 22, 22);
+
+td, th {
+    border: 5px solid white; 
     padding: 1.5%;
 }
-tr :nth-child(even) {
-    background-color: #d3d3d3;
+
+tr {
+    background-color: rgb(51, 112, 98);
 }
-.inicialimg{
+
+tr:nth-child(even) {
+    background-color: rgb(69, 133, 118);
+}
+
+.inicialimg {
+    margin-left: auto;
+    margin-right: auto;
     width: 80%;
+}
+
+figure{
+    text-align: center;
+ }
+ 
+ legend{
+     margin-top:  0.6%;
+ }
+ 
+  .imggaleria{
+     width: 90%;
+ } 
+ 
+ .linha{
+     display: flex;
+     flex-flow: row wrap;
+ }
+ 
+ .col-3{
+     width: 25%;
+ }
+
+.col-4{
+    width: 33.33%;
 }

@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Jersey+10+Charted&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/reset.css">
+    <title>Site de Pokémon</title>
 </head>
 <body>
     <header class="cabecalho">
@@ -16,34 +17,63 @@
         </div>
         <nav>
             <ul>
-                <li><a href="index.html"></a>Home</li>
-                <li><a href="#"></a>história</li>
-                <li><a href="#"></a>Jogabilidade</li>
-                <li><a href="#"></a>Opinião</li>
-                <li><a href="iniciais.html"></a>Iniciais</li>
-                <li><a href="lendarios.html"></a>Lendarios</li>
-                <li><a href="#"></a>Saiba mais</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#historia">História</a></li>
+                <li><a href="#jogabilidade">Jogabilidade</a></li>
+                <li><a href="#opiniao">Opinião</a></li>
+                <li><a href="iniciais.html">Iniciais</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-
-        </section>
-        <section>
-            <figure>
-                <img class="inicialimg" src="img/pokemon-ruby-sapphire-emerald.png.crdownload" alt="Fotos das capas do jogos de pokémon">
-            </figure>
+        <section class="sectionimg">
+            <div class="linha">
+                <div class="col-4">
+                    <figure>
+                        <img class="imggaleria" src="img/20240515_005502.jpg" alt="Capa do jogo pokémon Emerald">
+                    </figure>
+                </div>
+                <div class="col-4">
+                    <figure>
+                        <img class="imggaleria" src="img/20240515_010012.jpg" alt="Capa do jogo pokémon Sapphire ">
+                    </figure>
+                </div>
+                <div class="col-4">
+                    <figure>
+                        <img class="imggaleria" src="img/images.jpeg" alt="Capa do jogo pokémon Ruby">
+                    </figure>
+                </div>
+            </div>
+            <div class="linha">
+                <div class="col-4">
+                    <figure>
+                        <img class="imggaleria" src="img/20240515_010253.jpg" alt="Pokémon lenário Rayquaza">
+                    </figure>
+                    <legend>Rayquaza</legend>
+                </div>
+                <div class="col-4">
+                    <figure>
+                        <img class="imggaleria" src="img/20240515_010352.jpg" alt="Pokémon lenário Kyogre">
+                    </figure>
+                    <legend>Kyogre</legend>
+                </div>
+                <div class="col-4">
+                    <figure>
+                        <img class="imggaleria" src="img/20240515_010441.jpg" alt="Pokémon lenário Groudon">
+                    </figure>
+                    <legend>Groudon</legend>
+                </div>
+            </div>
         </section>
         <section>
             <table>
                 <tr>
                     <th class="texto">Desenvolvedora</th>
-                    <th class="texto">Game Freak </th>
+                    <th>Game Freak </th>
                 </tr>
                 <tr>
                     <td class="texto">Publicadora</td>
-                    <td>The Pokémon Company Nintendi</td>
+                    <td>The Pokémon Company, Nintendo</td>
                 </tr>
                 <tr>
                     <td class="texto">Diretor</td>
@@ -74,15 +104,17 @@
                     <td>Pokémon</td>
                 </tr>
                 <tr>
-                    <td class="texto">plataforma</td>
+                    <td class="texto">Plataforma</td>
                     <td>Game Boy Advance</td>
                 </tr>
                 <tr>
                     <td class="texto">Lançamento</td>
-                    <td>JP 16 de setembro de 2004
-                        AN 1 de maio de 2005
-                        EU 21 de outubro de 2005
-                        AU 9 de junho de 2005</td>
+                    <td>
+                        JP 16 de setembro de 2004<br>
+                        AN 1 de maio de 2005<br>
+                        EU 21 de outubro de 2005<br>
+                        AU 9 de junho de 2005
+                    </td>
                 </tr>
                 <tr>
                     <td class="texto">Gênero</td>
@@ -94,9 +126,38 @@
                 </tr>
             </table>
         </section>
-        <h2 class="titulo">história</h2>
-        <Section>
-
+        <section class="section3">
+            <div class="linha">
+                <div class="col-3">
+                    <figure>
+                        <img class="imggaleria" src="img/20240514_230426.jpg" alt="Personagens de pokémon">
+                    </figure>
+                    <legend>Personagens de Pokémon</legend>
+                </div>
+                <div class="col-3">
+                    <figure>
+                        <img class="imggaleria" src="img/20240514_230342.jpg" alt="Mapa de Hoenn">
+                    </figure>
+                    <legend>Mapa de Hoenn</legend>
+                </div>
+                <div class="col-3">
+                    <figure>
+                        <img class="imggaleria" src="img/20240514_230309.jpg" alt="Os 3 lendários">
+                    </figure>
+                    <legend>Os 3 lendários</legend>
+                </div>
+                <div class="col-3">
+                    <figure>
+                        <img class="imggaleria" src="img/20240514_230252.jpg" alt="Batalha pokémon">
+                    </figure>
+                    <legend>Batalha Pokémon</legend>
+                </div>
+            </div>
+        </section>
+        <section>
+        <h2 id="historia" class="titulo">História</h2>
+        <section class="section1">
+            <br>
             <p>Em Pokémon Emerald, Sapphire e Ruby, os jogadores são introduzidos à região de Hoenn, uma terra rica em diversidade geográfica e cultural. O protagonista, um jovem treinador Pokémon, inicia sua jornada em uma pequena cidade rural e rapidamente se envolve em uma série de eventos que moldarão o destino de Hoenn.</p>
             <br>
             <p>A história começa com o protagonista recebendo seu primeiro Pokémon do Professor Birch, um renomado especialista em Pokémon da região. Logo após, o protagonista se vê envolvido em um confronto com a Equipe Aqua e a Equipe Magma, duas organizações criminosas com objetivos opostos: a Equipe Aqua busca expandir os mares e oceanos, enquanto a Equipe Magma busca expandir a terra firme.</p>
@@ -110,10 +171,11 @@
             <p>À medida que a história se desenrola, o jogador explora locais emblemáticos de Hoenn, como a misteriosa Caverna da Origem, o majestoso Monte Chimney e a tecnológica cidade de Mauville. Além disso, o jogador tem a oportunidade de participar de eventos especiais, como concursos de Pokémon e a emocionante Battle Frontier, uma série de desafios pós-jogo que testam as habilidades de treinamento do jogador.</p>
             <br>
             <p>No final, após enfrentar a Elite Four e o Campeão da Liga Pokémon, o jogador é coroado como o novo Campeão de Hoenn, mas a jornada não termina aí. Ainda há muito para explorar e descobrir em Hoenn, desde a captura de Pokémon lendários até a conclusão da Pokédex e a busca por desafios cada vez mais difíceis. Em Pokémon Emerald, Sapphire e Ruby, a aventura nunca acaba, e os treinadores estão sempre prontos para enfrentar novos desafios e descobrir novas aventuras.</p>
-            
-        </Section>
-        <h2 class="titulo">Jogabilidade</h2>
-        <section>
+            <br>
+        </section>
+        <h2 id="jogabilidade" class="titulo">Jogabilidade</h2>
+        <section class="section2">
+            <br>
             <p>Exploração:</p>
             <p>Assim como em outros jogos da série, a exploração é uma parte central. Os jogadores viajam pela região de Hoenn, que é vasta e diversificada, com cidades, florestas, cavernas, mares e outras paisagens únicas.</p>
             <br>
@@ -130,16 +192,35 @@
             <p>Uma adição interessante em Ruby, Sapphire e Emerald são os Contest Halls, onde os treinadores podem participar de Concursos Pokémon. Estes são eventos competitivos onde os Pokémon são julgados com base em seus atributos e movimentos em vez de apenas em batalhas.</p>
             <br>
             <p>Diversidade de Pokémon:</p>
-            <p> Com mais de 380 Pokémon disponíveis para capturar e treinar, há uma grande diversidade de espécies para os jogadores escolherem e experimentarem em suas equipes.</p>
+            <p>Com mais de 380 Pokémon disponíveis para capturar e treinar, há uma grande diversidade de espécies para os jogadores escolherem e experimentarem em suas equipes.</p>
             <br>
             <p>Interação com o mundo exterior:</p>
             <p>Ruby, Sapphire e Emerald também introduziram algumas mecânicas de interação com o mundo exterior, como o uso do HM (Hidden Machine) para ensinar aos Pokémon movimentos especiais que podem ser usados fora das batalhas, como cortar árvores ou surfar em corpos d'água.</p>
             <br>
             <p>Conectividade:</p>
             <p>Embora a conectividade online não seja mais suportada devido à idade dos jogos, Ruby, Sapphire e Emerald apresentaram uma conectividade local onde os jogadores podiam trocar Pokémon, batalhar entre si e participar de concursos com amigos que possuíam cópias dos jogos.</p>
+            <br>
         </section>
-        <h2 class="titulo">Opnião</h2>
-        <section></section>
+        <h2 id="opiniao" class="titulo">Opinião</h2>
+        <section class="section3">
+            <br>
+            <p>   
+            Como alguém que jogou Pokémon Emerald, Ruby e Sapphire, posso dizer que essas experiências foram incrivelmente gratificantes e deixaram uma marca duradoura na minha jornada como treinador Pokémon. Cada um desses jogos traz uma combinação única de elementos que os tornam especiais e memoráveis.
+            <br>
+            Primeiramente, a região de Hoenn é um espetáculo à parte. Desde as vastas e diversas paisagens até as cidades pitorescas e rotas desafiadoras, Hoenn proporciona um cenário visualmente deslumbrante e diversificado. A variedade de ambientes, como florestas, cavernas, montanhas e áreas aquáticas, cria uma sensação de aventura contínua e exploração constante. A trilha sonora é outro ponto alto, com melodias que capturam perfeitamente o espírito de cada local e momento do jogo.
+            <br>
+            Os Pokémon introduzidos na terceira geração são, sem dúvida, alguns dos mais icônicos e bem-desenhados de toda a franquia. Desde os iniciais adoráveis como Treecko, Torchic e Mudkip até os lendários majestosos como Groudon, Kyogre e Rayquaza, cada criatura tem seu próprio charme e funcionalidade única nas batalhas. A mecânica de habilidades e naturezas, introduzida nesses jogos, adicionou uma camada extra de estratégia e personalização, permitindo aos jogadores desenvolver times que refletissem seu estilo de jogo.
+            <br>
+            O enredo dos jogos também merece destaque. As narrativas de Ruby e Sapphire, focadas na rivalidade entre as equipes Aqua e Magma, trazem uma profundidade e complexidade que prendem a atenção do jogador. Pokémon Emerald eleva isso a um novo patamar, unindo os elementos das duas versões anteriores e introduzindo a intrigante Battle Frontier. Este local não só testa as habilidades dos jogadores, mas também oferece um desafio contínuo, incentivando a melhoria e a inovação constante nas estratégias de batalha.
+            <br>
+            Outro ponto que me cativou foi a implementação de inovações tecnológicas e de jogabilidade. As bases secretas, que permitem aos jogadores criar seus próprios espaços personalizados, e as competições de Contests, que oferecem uma alternativa divertida e criativa às batalhas tradicionais, são exemplos brilhantes de como a série soube expandir e diversificar a experiência de jogo.
+            <br>
+            Por fim, a conectividade e a interação entre jogadores foram muito aprimoradas. A possibilidade de trocar Pokémon e batalhar com amigos adiciona uma dimensão social que é fundamental para a longevidade e diversão dos jogos. Essas interações não só fortalecem os laços entre os jogadores, mas também incentivam a coleção completa e a descoberta de novas estratégias e combinações.
+            <br>
+            Em resumo, Pokémon Emerald, Ruby e Sapphire são obras-primas que não só preservaram a magia dos jogos anteriores, mas também introduziram inovações que enriqueceram a experiência global. A região de Hoenn, os novos Pokémon, as mecânicas aprimoradas e as opções de conectividade fazem desses jogos uma parte essencial e inesquecível da franquia Pokémon. Jogá-los foi uma aventura incrível que certamente recomendo a qualquer fã da série.
+            <br>
+            </p>
+        </section>
     </main>
     <footer class="rodape">
         <p class="texto">Site feito por: Thiago da Silva Santos</p>
