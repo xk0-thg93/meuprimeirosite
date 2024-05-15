@@ -8,12 +8,12 @@ body{
 }
 
 .cabecalho{
-    background-color: rgb(255, 243, 150);
+    background-color: rgb(158, 0, 0);
     padding: 3%;
 }
 
 .logo{
-    background-color: rgb(230, 255, 0);
+    background-color: rgb(255, 193, 13);
 }
 
 .logotopo{
@@ -22,7 +22,7 @@ body{
 
 /* Classe atribuida para a div que vai receber o logotipo  */
 nav{
-    background-color: rgb(230, 255, 0);
+    background-color: rgb(255, 193, 13);
 }
 
 main{
@@ -34,6 +34,15 @@ main{
 
 section{
     background-color:rgb(68, 99, 255);
+}
+
+.sectionimg{
+    background-image:url(../img/fundocolorido.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: repeat-y;
+    height: 100%;
+    margin: 0;
 }
 
 
