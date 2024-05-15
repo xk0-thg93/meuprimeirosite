@@ -1,18 +1,5 @@
-/*PALETA DE CORES:
-Azul escuro: 46, 58, 152
-
-Amarelo/laranja: 255, 193, 13
-
-Branco: 255, 255, 255
-
-Verde ray: 69, 133, 118
-
-azul kay: 50, 100, 180
-
-vermelho grou: 200, 60, 40
-*/
-body {
-    background-image: url(../img/Mapa\ hoenn.png);
+body{
+    background-image:url(../img/Mapa/hoenn.png);
     background-size: 100%;
     background-position: center;
     background-repeat: repeat-y;
@@ -20,95 +7,75 @@ body {
     margin: 0;
 }
 
-.cabecalho {
-    background-color: rgb(200, 60, 40);
+.cabecalho{
+    background-color: rgb(255, 243, 150);
     padding: 3%;
 }
 
-.logo {
-    background-color: rgb(255, 193, 13);
+.logo{
+    background-color: rgb(230, 255, 0);
 }
 
-.logotopo {
+.logotopo{
     width: 20%;
 }
 
-/* Classe atribuída para a div que vai receber o logotipo */
-nav {
-    background-color: rgb(255, 255, 255);
+/* Classe atribuida para a div que vai receber o logotipo  */
+nav{
+    background-color: rgb(230, 255, 0);
 }
 
-main {
+main{
     background-color: rgb(255, 193, 13);
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
-section {
-    background-color: rgb(53, 65, 155);
+section{
+    background-color:rgb(68, 99, 255);
 }
 
-.section1 {
-    background-color: rgb(69, 133, 118);
-}
 
-.section2 {
-    background-color: rgb(50, 100, 180);
-}
-
-.section3 {
-    background-color: rgb(200, 60, 40);
-}
-
-.sectionimg{
-    background-image: url(../img/fundocolorido.jpg);
-    background-size: 100%;
-    background-position: center;
-    background-repeat: repeat-y;
-    height: 100%;
-    margin: 0;
-}
-
-.rodape {
-    background-color: rgb(69, 133, 118);
+.rodape{
+    background-color:rgb(160, 255, 247);
     padding: 3%;
 }
 
-.titulo {
+.titulo{
     line-height: 3;
     text-align: center;
     font-weight: bold;
 }
 
-h1, h2, h3, p, li, table {
+h1, h2, h3, p, li, table{
     font-family: "Pixelify Sans", sans-serif;
 }
 
-h1 {
+h1{
     font-size: 3rem;
 }
 
-h2 {
+h2{
     font-size: 2rem;
 }
 
-.link {
+.link{
     line-height: 1.5;
     font-size: 1.5em;
     color: rgb(10, 10, 10);
 }
 
-p, td {
+p, td{
     line-height: 1.5rem;
     color: azure;
 }
 
-.texto {
+.texto{
     color: rgb(15, 15, 15);
 }
 
-table {
+table{
     border-collapse: collapse;
     width: 80%;
     font-size: 1.5rem;
@@ -118,16 +85,16 @@ table {
     border: 1px solid white; 
 }
 
-td, th {
+td, th{
     border: 5px solid white; 
     padding: 1.5%;
 }
 
-tr {
+tr{
     background-color: rgb(51, 112, 98);
 }
 
-tr:nth-child(even) {
+tr:nth-child(even){
     background-color: rgb(69, 133, 118);
 }
 
