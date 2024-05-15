@@ -1,5 +1,5 @@
 body{
-    background-image:url(../img/Mapa/hoenn.png);
+    background-image:url(../img/Mapa-hoenn.png);
     background-size: 100%;
     background-position: center;
     background-repeat: repeat-y;
@@ -8,7 +8,7 @@ body{
 }
 
 .cabecalho{
-    background-color: rgb(158, 0, 0);
+    background-color: rgb(44, 40, 255);
     padding: 3%;
 }
 
@@ -27,13 +27,16 @@ nav{
 
 main{
     background-color: rgb(255, 193, 13);
-    width: 80%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
 }
 
 section{
     background-color:rgb(68, 99, 255);
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sectionimg{
@@ -47,7 +50,7 @@ section{
 
 
 .rodape{
-    background-color:rgb(160, 255, 247);
+    background-color:rgb(44, 40, 255);
     padding: 3%;
 }
 
@@ -82,6 +85,7 @@ p, td{
 
 .texto{
     color: rgb(15, 15, 15);
+    font-weight: bold;
 }
 
 table{
@@ -91,7 +95,7 @@ table{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2%;
-    border: 1px solid white; 
+    border: 7px solid white; 
 }
 
 td, th{
@@ -137,3 +141,4 @@ figure{
 .col-4{
     width: 33.33%;
 }
+
