@@ -42,6 +42,8 @@ section{
 .sectionimg{
     background-image:url(../img/fundocolorido.jpg);
     background-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
     background-position: center;
     background-repeat: repeat-y;
     height: 100%;
@@ -60,7 +62,7 @@ section{
     font-weight: bold;
 }
 
-h1, h2, h3, p, li, table{
+h1, h2, h3, p, li, table, legend{
     font-family: "Pixelify Sans", sans-serif;
 }
 
@@ -69,7 +71,7 @@ h1{
 }
 
 h2{
-    font-size: 2rem;
+    font-size: 2.rem;
 }
 
 .link{
@@ -79,7 +81,8 @@ h2{
 }
 
 p, td{
-    line-height: 1.5rem;
+    line-height: 1rem;
+
     color: azure;
 }
 
@@ -99,7 +102,7 @@ table{
 }
 
 td, th{
-    border: 5px solid white; 
+    border: 3px solid white; 
     padding: 1.5%;
 }
 
@@ -134,6 +137,12 @@ figure{
      flex-flow: row wrap;
  }
  
+
+ .linha2{
+    display: flex;
+    flex-flow: wrap;
+}
+
  .col-3{
      width: 25%;
  }
