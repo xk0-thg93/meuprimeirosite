@@ -104,7 +104,6 @@ h2{
     text-align: center;
     font-weight: bold;
     line-height: 3;
-    font-size: 2rem;
 }
 
 .link{
@@ -136,11 +135,11 @@ table{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2%;
-    border: 4px solid white; 
+    border: 3.5px solid white; 
 }
 
 td, th{
-    border: 2px solid white; 
+    border: 1.5px solid white; 
     padding: 0.7%;
 }
 
@@ -192,8 +191,136 @@ figure{
 .imgleft{
     width: 15%;
     float: left;
+    margin-right: 2%;
 }
 .imgright{
     width: 15%;
     float: right;
+    margin-right: 2%;
+}
+
+.legenda{
+    color:black;
+}
+
+@media (min-width: 301px) and (max-width: 600px){
+    .titulop{
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        text-align: center;
+        font-size: 1rem;
+    }
+    h1{
+        font-size: 2rem;
+        line-height:2.6;
+    }
+    h2{
+        font-size: 1.1rem;
+        line-height: 2.6;
+    }
+
+    .esp{
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        line-height: 2.5;
+    }
+
+    .link{
+        line-height: 1rem;
+        font-size: 0.9rem;
+        color: rgb(10, 10, 10);
+    }
+    .titulo{
+        line-height: 2.5rem;
+    }
+    p, td{
+        line-height: 0.9rem;
+        font-size: 0.8rem;
+        color: azure;
+    }
+    table{
+        border-collapse: collapse;
+        width: 80%;
+        font-size: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1%;
+        border: 2.5px solid white; 
+    }
+    td, th{
+        border: 1px solid white; 
+        padding: 0.5%;
+    }
+    .legenda{
+        color:black;
+    }
+}
+
+@media (max-width: 300px){
+    .titulop{
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        text-align: center;
+        font-size: 0.7rem;
+    }
+    h1{
+        font-size: 0.6rem;
+        line-height:0.8;
+    }
+    h2{
+        font-size: 0.4rem;
+        line-height: 0.8;
+    }
+
+    .esp{
+        color: white;
+        text-align: center;
+        line-height: 0.6;
+    }
+
+    a{
+        font-size: 0.4rem;
+        line-height:0.8; 
+    }
+
+    li{
+        font-size: 0.6rem;
+        line-height:0.8; 
+    }
+
+    .texto{
+        color: rgb(15, 15, 15);
+    }
+    
+
+    .link{
+        line-height: 0.7rem;
+        font-size: 0.5rem;
+        color: rgb(10, 10, 10);
+    }
+    .titulo{
+        line-height: 2rem;
+    }
+    p, td{
+        line-height: 0.5rem;
+        font-size: 0.4rem;
+        color: azure;
+    }
+    table{
+        border-collapse: collapse;
+        width: 80%;
+        font-size: 0.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0.7%;
+        border: 2px solid white; 
+    }
+    td, th{
+        border: 0.7px solid white; 
+        padding: 0.4%;
+    }
+    .legenda{
+        color:black;
+    }
 }
