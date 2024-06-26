@@ -9,8 +9,10 @@ body{
 
 .cabecalho{
     background-color: rgb(44, 40, 255);
-    padding: 3%;
+    padding: 1%;
     text-align: center;
+    position: fixed;
+    width: 98%;
 }
 
 .logo{
@@ -18,20 +20,33 @@ body{
 }
 
 .logotopo{
-    width: 20%;
+    width: 40%;
 }
 
-/* Classe atribuida para a div que vai receber o logotipo  */
 nav{
     background-color: rgb(255, 193, 13);
 }
 
+.linhafi{
+    display: flex;
+    flex-flow: row wrap;
+}
+
 .menulinha {
     text-align: center;
+    margin-top: 3%;
 }
 
 li{
     margin-right: 2%;
+}
+
+.menugal{
+    width: 90%;
+ } 
+
+.col-6{
+    width:50%;
 }
 
 .menugif{
@@ -123,6 +138,24 @@ p{
     padding-bottom: 0.5%;
 }
 
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.imgcomtexto {
+    width: 100%;
+    position: relative;
+}
+
+.imgtextopeteburg{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    padding: 1%;
+    font-size: 1.2em;
+}
+
 .texto{
     color: rgb(15, 15, 15);
     font-weight: bold;
@@ -174,10 +207,10 @@ figure{
     flex-flow: row wrap;
  }
  
-
- .linha2{
+ .linha1{
     display: flex;
-    flex-flow: wrap;
+    flex-flow: row wrap;
+    margin-top: 15%;
 }
 
  .col-3{
