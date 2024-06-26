@@ -55,11 +55,11 @@ li{
  } 
 
 .col-6{
-    width:50%;
+    width:70%;
 }
 
 .menugif{
-    width: 20%;
+    width: 70%;
     text-align: center;
 }
 
@@ -124,15 +124,49 @@ h2{
 }
 
 .esp{
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-weight: bold;
     line-height: 3;
 }
 
+.espfogo{
+    color: rgb(207, 86, 0);
+    background-color: rgba(255, 255, 255, 0.747);
+    text-align: center;
+    font-weight: bold;
+    line-height: 3;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+}
+
+.espagua{
+    color: rgb(0, 92, 185);
+    background-color: rgba(255, 255, 255, 0.747);
+    text-align: center;
+    font-weight: bold;
+    line-height: 3;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+}
+
+.espranta{
+    color: rgb(5, 145, 0);
+    background-color: rgba(255, 255, 255, 0.747);
+    text-align: center;
+    font-weight: bold;
+    line-height: 3;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+}
+
+
 .link{
     line-height: 1.5rem;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color: rgb(10, 10, 10);
 }
 
@@ -157,11 +191,11 @@ p{
 
 .city1{
     position: absolute;
-    bottom:35% ;
+    bottom:33% ;
     left: 25%;
     padding: 1%;
     font-size: 1.2em;
-    background-color: rgba(255, 0, 0, 0.233);
+    background-color: rgba(255, 0, 0, 0.700);
     z-index: 1;
 }
 
@@ -171,7 +205,7 @@ p{
     left: 1%;
     padding: 1%;
     font-size: 1.2em;
-    background-color: rgba(255, 0, 0, 0.233);
+    background-color: rgba(255, 0, 0, 0.700);
     z-index: 1;
 }
 
@@ -181,7 +215,7 @@ p{
     left: 27%;
     padding: 1%;
     font-size: 1.2em;
-    background-color: rgba(255, 0, 0, 0.233);
+    background-color: rgba(255, 0, 0, 0.700);
     z-index: 1;
 }
 
@@ -192,7 +226,7 @@ p{
     padding: 1%;
     font-size: 1.2em;
     z-index: 1;
-    background-color: rgba(255, 0, 0, 0.233);
+    background-color: rgba(255, 0, 0, 0.700);
 }
 
 .city5{
@@ -201,20 +235,84 @@ p{
     left: 77%;
     padding: 1%;
     font-size: 1.2em;
-    background-color: rgba(255, 0, 0, 0.233);
+    background-color: rgba(255, 0, 0, 0.700);
     z-index: 1;
 }
 
 .city6{
     position: absolute;
     bottom:40% ;
-    left: 82%;
+    left: 85%;
     padding: 1%;
     font-size: 1.2em;
-    background-color: rgba(255, 0, 0, 0.233);
+    background-color: rgba(255, 0, 0, 0.700);
     z-index: 1;
 }
 
+.vulcan{
+    position: absolute;
+    bottom:70% ;
+    left: 15%;
+    padding: 1%;
+    font-size: 1.2em;
+    background-color: rgba(255, 89, 0, 0.700);
+    z-index: 1;
+}
+
+.flore1{
+    position: absolute;
+    bottom:40% ;
+    left: 10%;
+    padding: 1%;
+    font-size: 1.2em;
+    background-color: rgba(0, 255, 0, 0.700);
+    z-index: 1;
+}
+
+.flore2{
+    position: absolute;
+    bottom:80% ;
+    left: 35%;
+    padding: 1%;
+    font-size: 1.2em;
+    background-color: rgba(0, 255, 0, 0.700);
+    z-index: 1;
+}
+
+.cave1{
+    position: absolute;
+    bottom:70% ;
+    left: 75%;
+    padding: 1%;
+    font-size: 1.2em;
+    background-color: rgba(105, 72, 0, 0.700);
+    z-index: 1;
+}
+
+.cave2{
+    position: absolute;
+    bottom:15% ;
+    left: 1%;
+    padding: 1%;
+    font-size: 1.2em;
+    background-color: rgba(105, 72, 0, 0.700);
+    z-index: 1;
+}
+
+.cave3{
+    position: absolute;
+    bottom:55% ;
+    left: 12%;
+    padding: 1%;
+    font-size: 1.2em;
+    background-color: rgba(105, 72, 0, 0.700);
+    z-index: 1;
+}
+
+.textoimg{
+    font-size: 0.8em;
+    line-height: 0.1rem;
+}
 
 .texto{
     color: rgb(15, 15, 15);
@@ -281,6 +379,10 @@ figure{
     width: 33.33%;
 }
 
+.col-6-12{
+    width: 30%;
+}
+
 .imgleft{
     width: 15%;
     float: left;
@@ -296,7 +398,7 @@ figure{
     color:black;
 }
 
-@media (min-width: 301px) and (max-width: 600px){
+@media (min-width: 301px) and (max-width: 700px){
     .titulop{
         color: rgb(0, 0, 0);
         font-weight: bold;
@@ -304,7 +406,7 @@ figure{
         font-size: 1rem;
     }
     h1{
-        font-size: 2rem;
+        font-size: 1.5rem;
         line-height:2.6;
     }
     h2{
@@ -312,6 +414,11 @@ figure{
         line-height: 2.6;
     }
 
+    .textoimg{
+        font-size: 0.6em;
+        line-height: 0.1rem;
+    }
+    
     .esp{
         color: white;
         text-align: center;
@@ -358,23 +465,29 @@ figure{
         font-size: 0.7rem;
     }
     h1{
-        font-size: 0.5rem;
+        font-size: 0.8rem;
         line-height:0.8;
     }
     h2{
-        font-size: 0.35rem;
+        font-size: 0.5rem;
         line-height: 0.7;
     }
+
+    .textoimg{
+        font-size: 0.25em;
+        line-height: 0.1rem;
+    }
+    
 
     .esp{
         color: white;
         text-align: center;
-        line-height: 0.6;
+        line-height: 1;
         padding: 1%;
     }
 
     a{
-        font-size: 0.3rem;
+        font-size: 0.5rem;
         line-height:0.5; 
     }
 
@@ -394,11 +507,11 @@ figure{
         color: rgb(10, 10, 10);
     }
     .titulo{
-        line-height: 2rem;
+        line-height: 1rem;
     }
     p, td{
         line-height: 0.4rem;
-        font-size: 0.3rem;
+        font-size: 0.4rem;
         color: azure;
     }
     table{
