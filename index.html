@@ -26,15 +26,22 @@
             </div>
         </div>
     </header>
-    <nav>
-        <ul class="menulinha">
-            <li><a class="link" href="index.html">Home</a></li>
-            <li><a class="link" href="#historia">História</a></li>
-            <li><a class="link" href="#jogabilidade">Jogabilidade</a></li>
-            <li><a class="link" href="#opiniao">Opinião</a></li>
-            <li><a class="link" href="iniciais.html">Iniciais</a></li>
-        </ul>
-        
+    <nav class="navbar">
+        <div class="menu-toggle">
+            <input type="checkbox" id="menu-checkbox">
+            <label for="menu-checkbox" class="menu-icon">
+                <span class="menu-icon__line"></span>
+                <span class="menu-icon__line"></span>
+                <span class="menu-icon__line"></span>
+            </label>
+            <ul class="menu">
+                <li><a class="link" href="index.html">Home</a></li>
+                <li><a class="link" href="#historia">História</a></li>
+                <li><a class="link" href="#jogabilidade">Jogabilidade</a></li>
+                <li><a class="link" href="#opiniao">Opinião</a></li>
+                <li><a class="link" href="iniciais.html">Iniciais</a></li>
+            </ul>
+        </div>
     </nav>
     <main>
         <section class="sectionimg">,
@@ -79,6 +86,7 @@
                 </div>
             </div>
         </section>
+
         <section>
             <table>
                 <tr>
@@ -172,10 +180,16 @@
         <h2 id="historia" class="titulo">História</h2>
         <section class="section1">
             <p>Em Pokémon Emerald, Sapphire e Ruby, os jogadores são introduzidos à região de Hoenn, uma terra rica em diversidade geográfica e cultural. O protagonista, um jovem treinador Pokémon, inicia sua jornada em uma pequena cidade rural e rapidamente se envolve em uma série de eventos que moldarão o destino de Hoenn.</p>
-            <p>A história começa com o protagonista recebendo seu primeiro Pokémon do Professor Birch, um renomado especialista em Pokémon da região. Logo após, o protagonista se vê envolvido em um confronto com a Equipe Aqua e a Equipe Magma, duas organizações criminosas com objetivos opostos: a Equipe Aqua busca expandir os mares e oceanos, enquanto a Equipe Magma busca expandir a terra firme.</p>
-            <p> enredo se desenrola à medida que o jogador viaja pela vasta região de Hoenn, enfrentando desafios como os líderes de ginásio, cada um especializado em um tipo de Pokémon diferente. A conquista das insígnias de ginásio é essencial para desafiar a Elite Four e o atual Campeão da Liga Pokémon.</p>
+            <p>
+                <img class="imgright" src="img/Equipe_Aqua_Magma.jpg">
+                A história começa com o protagonista recebendo seu primeiro Pokémon do Professor Birch, um renomado especialista em Pokémon da região. Logo após, o protagonista se vê envolvido em um confronto com a Equipe Aqua e a Equipe Magma, duas organizações criminosas com objetivos opostos: a Equipe Aqua busca expandir os mares e oceanos, enquanto a Equipe Magma busca expandir a terra firme.
+            </p>
+            <p>O enredo se desenrola à medida que o jogador viaja pela vasta região de Hoenn, enfrentando desafios como os líderes de ginásio, cada um especializado em um tipo de Pokémon diferente. A conquista das insígnias de ginásio é essencial para desafiar a Elite Four e o atual Campeão da Liga Pokémon.</p>
             <p>Durante sua jornada, o jogador encontra uma variedade de personagens interessantes, como o rival, um treinador determinado a superar o protagonista a qualquer custo, e os membros da Elite Four, os treinadores mais poderosos de Hoenn.</p>
-            <p>Um dos aspectos mais marcantes da história é o conflito entre Kyogre e Groudon, dois lendários Pokémon que representam o oceano e a terra, respectivamente. A Equipe Aqua e a Equipe Magma tentam despertar esses Pokémon lendários para realizar seus objetivos de expandir o mar e a terra. O protagonista, juntamente com a ajuda de Rayquaza, um terceiro lendário, deve intervir para evitar uma catástrofe que poderia destruir Hoenn.</p>
+            <p>
+                <img class="imgleft" src="img/Elite_Four.png">
+                Um dos aspectos mais marcantes da história é o conflito entre Kyogre e Groudon, dois lendários Pokémon que representam o oceano e a terra, respectivamente. A Equipe Aqua e a Equipe Magma tentam despertar esses Pokémon lendários para realizar seus objetivos de expandir o mar e a terra. O protagonista, juntamente com a ajuda de Rayquaza, um terceiro lendário, deve intervir para evitar uma catástrofe que poderia destruir Hoenn.
+            </p>
             <p>À medida que a história se desenrola, o jogador explora locais emblemáticos de Hoenn, como a misteriosa Caverna da Origem, o majestoso Monte Chimney e a tecnológica cidade de Mauville. Além disso, o jogador tem a oportunidade de participar de eventos especiais, como concursos de Pokémon e a emocionante Battle Frontier, uma série de desafios pós-jogo que testam as habilidades de treinamento do jogador.</p>
             <p>No final, após enfrentar a Elite Four e o Campeão da Liga Pokémon, o jogador é coroado como o novo Campeão de Hoenn, mas a jornada não termina aí. Ainda há muito para explorar e descobrir em Hoenn, desde a captura de Pokémon lendários até a conclusão da Pokédex e a busca por desafios cada vez mais difíceis. Em Pokémon Emerald, Sapphire e Ruby, a aventura nunca acaba, e os treinadores estão sempre prontos para enfrentar novos desafios e descobrir novas aventuras.</p>
         </section>
@@ -229,7 +243,7 @@
             <p class="titulop">Ginásios Pokémon:</p>
             <p>Hoenn é o lar de oito ginásios Pokémon, cada um liderado por um líder de ginásio especializado em um tipo específico de Pokémon. Os jogadores precisam desafiar e derrotar esses líderes de ginásio para obter insígnias, que são necessárias para avançar na história.</p>
             <p class="titulop">Ruby e Sapphire apresentam duas equipes antagonistas:</p>
-            <p>Equipe Magma e Equipe Aqua, respectivamente. Emerald combina ambas as equipes em uma única narrativa mais elaborada. Os jogadores precisam impedir os planos dessas equipes enquanto avançam na história.</p>
+            <p>Magma e Equipe Aqua, respectivamente. Emerald combina ambas as equipes em uma única narrativa mais elaborada. Os jogadores precisam impedir os planos dessas equipes enquanto avançam na história.</p>
             <p class="titulop">Contest Halls (Salões de Concurso):</p>
             <p>Uma adição interessante em Ruby, Sapphire e Emerald são os Contest Halls, onde os treinadores podem participar de Concursos Pokémon. Estes são eventos competitivos onde os Pokémon são julgados com base em seus atributos e movimentos em vez de apenas em batalhas.</p>
             <p class="titulop">Diversidade de Pokémon:</p>
