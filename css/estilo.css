@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-image:url(../img/Mapa-hoenn.png);
     background-size: 100%;
@@ -81,7 +85,15 @@ nav.navbar{
 #menu-checkbox:checked ~ .menu {
     display: flex;
 }
+.idmenu{
+    padding-top: 60px;
+    margin-top: -60px;
+}
 
+.section1{
+    padding-top: 27%;
+    margin-top: -27%;
+}
 
 .col-6{
     width:70%;
@@ -136,6 +148,7 @@ section{
     font-weight: bold;
     line-height: 3;
     color: black;
+    background-color: rgb(255, 193, 13);
 }
 
 h1, h2, h3, li, p, table, legend{
