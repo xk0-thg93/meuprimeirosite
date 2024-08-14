@@ -440,6 +440,10 @@ figure{
     color:black;
 }
 
+.divforms{
+    margin-bottom: 1%;
+}
+
 @media (min-width: 301px) and (max-width: 700px){
     .titulop{
         color: rgb(0, 0, 0);
