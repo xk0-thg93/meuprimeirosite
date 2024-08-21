@@ -16,7 +16,8 @@
             <img class="logotopo" src="img/pngegg (3).png" alt="Logo Pokemon ">
             <div class="linha">
                 <div class="col-6">
-                    <h1 class="esp">SEJA BEM-VINDO A ESSE SITE INCRÍVEL!!</h1>
+                    <h1 class="esp">DEIXE SUA OPINIÃO!!!</h1>
+                    <h1 class="esp">Espero que tenha gostado do site, volte sempre!!!</h1>
                 </div>
                 <div class="col-6-12">
                     <figure>
@@ -42,27 +43,120 @@
     </nav>
     <main>
         <h2 class="titulo">Contato</h2>
-            <p>nome, data nasci, e-mail, idade, favoritos: gen; poké; inicial e caixa de texto.</p>
-               text   date        email   number     select  checkbox  radio     comments  
         <SECTION>
             <form>
-                <div>
-                    <div class="divforms">
-                        
-                    </div>
-                    <div class="divforms">
-                        
-                    </div>
-                    <div class="divforms">
-                        
-                    </div>
-                    <div class="divforms">
-                        
-                    </div>
-                    <div class="divforms">
-                        <h2>Favoritos</h2>
-                        
-                    </div>
+                <div class="form-group">
+                    <label for="username">Seu nome completo:</label>
+                    <input type="text" id="username" name="username">
+                </div>
+    
+                <div class="form-group">
+                    <label for="dob">Data de nascimento:</label>
+                    <input type="date" id="dob" name="dob">
+                </div>
+    
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="gen">Qual delas seria a sua geração favorita?</label>
+                    <select id="geracoes" name="geracoes">
+                        <option value="gen1">Kanto Geração 1</option>
+                        <option value="gen2">Johto Geração 2</option>
+                        <option value="gen3">Hoenn Geração 3</option>
+                        <option value="gen4">Sinnoh Geração 4</option>
+                        <option value="gen5">Unova Geração 5</option>
+                        <option value="gen6">Kalos Geração 6</option>
+                        <option value="gen7">Alola Geração 7</option>
+                        <option value="gen8">Galar Geração 8</option>
+                        <option value="gen9">Paldea Geração 9</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="ti">Selecione o seu tipo preferido</label>
+                    <select id="type" name="type">
+                        <option value="Normal">Normal</option>
+                        <option value="Fight">Fughting (lutador)</option>
+                        <option value="Fly">Flying (voador)</option>
+                        <option value="Poison">poison (venenoso)</option>
+                        <option value="Ground">Gorund (Terreno)</option>
+                        <option value="Rocklee">Rock (Pedra)</option>
+                        <option value="Bugdomilenio">Bug (inseto)</option>
+                        <option value="Ghost">Ghost (Fantasma)</option>
+                        <option value="Steel,ball,run">Steel (aço)</option>
+                        <option value="Fire">Fire (fogo)</option>
+                        <option value="Water">Waterv(água)</option>
+                        <option value="Grass">Grass (grama)</option>
+                        <option value="Eletric">Eletric (elétrico)</option>
+                        <option value="Psychic">Psychic (psíquico)</option>
+                        <option value="Ice">Ice (gelo)</option>
+                        <option value="Dragon">Dragon (dragon)</option>
+                        <option value="DekuDark">Dark (Escuridão)</option>
+                        <option value="Fairy">Fairy (fada)</option>
+                    </select>
+                </div>
+    
+                <div class="form-group">
+                    <label>Qual é o se tipo favoritos?</label>
+                    <input type="checkbox" id="Normal" name="favorite_type" value="Normal">
+                    <label for="Normal">Normal</label>
+                    <input type="checkbox" id="Fight" name="favorite_type" value="Fight">
+                    <label for="Fight">Lutador (fighting)</label>
+                    <input type="checkbox" id="Fly" name="favorite_type" value="Fly">
+                    <label for="Fly">Voador (flying)</label>
+                    <input type="checkbox" id="Poi" name="favorite_type" value="Poi">
+                    <label for="Poi">Venenoso (poison)</label>
+                    <input type="checkbox" id="Grou" name="favorite_type" value="Grou">
+                    <label for="Grou">Terreno (ground)</label>
+                    <input type="checkbox" id="Rock" name="favorite_type" value="Rock">
+                    <label for="Rock">Pedra (rock)</label>
+                    <input type="checkbox" id="Bug" name="favorite_type" value="Bug">
+                    <label for="Bug">Inseto (bug)</label>
+                    <input type="checkbox" id="Gou" name="favorite_type" value="Gou">
+                    <label for="Gou">Fantasma (ghost)</label>
+                    <input type="checkbox" id="Steel" name="favorite_type" value="Steel">
+                    <label for="Steel">Ferro (steel)</label>
+                    <input type="checkbox" id="Fire" name="favorite_type" value="Fire">
+                    <label for="Fire">Fogo (fire)</label>
+                    <input type="checkbox" id="Water" name="favorite_type" value="Water">
+                    <label for="Water">Àgua (water)</label>
+                    <input type="checkbox" id="Grass" name="favorite_type" value="Grass">
+                    <label for="Grass">Grama (grass)</label>
+                    <input type="checkbox" id="Elec" name="favorite_type" value="Elec">
+                    <label for="Elec">Elétrico (electric)</label>
+                    <input type="checkbox" id="Psy" name="favorite_type" value="Psy">
+                    <label for="Psy">Psíquico (psychic)</label>
+                    <input type="checkbox" id="Ice" name="favorite_type" value="Ice">
+                    <label for="Ice">Gelo (ice)</label>
+                    <input type="checkbox" id="Dra" name="favorite_type" value="Dra">
+                    <label for="Dra">Dragão (dragon)</label>
+                    <input type="checkbox" id="Dark" name="favorite_type" value="Dark">
+                    <label for="Dark">Escuridão (dark)</label>
+                    <input type="checkbox" id="Fairy" name="favorite_type" value="Fairy">
+                    <label for="Fairy">Fada (fairy)</label>
+                </div>
+                <p>Deu erro, não conseguir arrumar a que vai rádio e checkbox</p>
+                <div class="form-group">
+                    <label>Inicial favorito da gen3:</label>
+                    <input type="radio" id="Treecko_radio" name="starter" value="Treecko">
+                    <label for="Treecko_radio">Treecko</label>
+                    <input type="radio" id="Mudkip_radio" name="starter" value="Mudkip">
+                    <label for="Mudkip_radio">Mudkip</label>
+                    <input type="radio" id="Torchic_radio" name="starter" value="Torchic">
+                    <label for="Torchic_radio">Torchic</label>
+
+                </div>
+    
+                <div class="form-group">
+                    <label for="comments">Deixe sua opinião:</label>
+                    <textarea id="comments" name="comments"></textarea>
+                </div>
+    
+                <div class="form-group">
+                    <button type="submit">Enviar</button>
                 </div>
             </form>
         </SECTION>

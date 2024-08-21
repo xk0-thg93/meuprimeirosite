@@ -440,8 +440,79 @@ figure{
     color:black;
 }
 
-.divforms{
-    margin-bottom: 1%;
+
+.form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type=text], input[type=email], input[type=date], select {
+    width: calc(100% - 22px);
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 80%;
+    background-color: rgb(65, 158, 225);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.checkbox-group, .radio-group {
+    margin-bottom: 20px;
+}
+
+.checkbox-group h2, .radio-group h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.checkbox-group input[type=checkbox],
+.radio-group input[type=radio] {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+ label {
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+textarea {
+    width: 90%;
+    height: 200px; 
+    resize: none;
 }
 
 @media (min-width: 301px) and (max-width: 700px){
